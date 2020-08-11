@@ -13,31 +13,7 @@ nav
 	margin-left: auto;
 	background-color: white; 
 }
-.sliders
-{
-	display: flex;
 
-}
-/*
-.cards
-{
-	width: 200px;
-	height: 200px;
-	margin: 2rem;
-}
-.cards-img
-{
-	width: 100%;
-}
-.cards-body
-{
-	width: 200px;
-	height:100px;
-}
-.cards-title
-{
-	
-}*/
 .Container
 {
 	height: 500px;
@@ -46,16 +22,75 @@ nav
 {
 	background-color:gray; 
 }
-.Slider
+/* for slider 1*/
+.container-fluid
 {
-	height: 200px;
-	display: flex;
-	align-items: center;
-	
+    height: 420px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.slider,
+{
+  width: 100%;
+  height: 400px;
+  margin: 40px;
+  position: relative;
 }
 .Slider__pics
 {
-	text-align: center;
+	height: 400px;
+
+}
+.button
+{
+  position: absolute;
+  top: 50%;
+  left: 1%;
+  transform:translateX(-50%); 
+  border-radius: 50%;
+  background-color: white;
+  height: 50px;
+  outline: none;
+  z-index: 200;
+
+}
+.button__next
+{
+  left: 95%;
+}
+.Cards
+{
+  position: absolute;
+  width: 350px;
+  height: 380px;
+  left:0;
+  margin-top: 1rem;
+
+}
+.Cards__img
+{
+ height: 200px;
+}
+.Cards__img img
+{
+  border-radius: 10px;
+  width:100%;
+  height:100%;
+}
+.card__title p
+{
+
+  font-weight: bold;
+  margin-top:2rem ;
+}
+.card__subtitle p
+{
+  font-weight: normal;
+  margin: 0;
+  opacity: .7;
 }
 .footer
 {
